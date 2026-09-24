@@ -32,7 +32,7 @@
 | [EJEMPLO] Autenticación de usuarios        | Completado  | Alta      | Ejemplo ficticio: entregada en la fase inicial; incluye registro, acceso y recuperación por correo. |
 | [EJEMPLO] Panel de administración básico   | En Progreso | Media     | Ejemplo ficticio: bloqueado parcialmente por definición de roles pendiente (ver spec 002). |
 | [EJEMPLO] Reportes exportables             | Pendiente   | Baja      | Ejemplo ficticio: decidido después de validar demanda con primeros usuarios. |
-| [FEATURE_REAL_1]                           | [ESTADO]    | [PRIORIDAD] | [NOTAS_]                                                   |
+| [FEATURE_REAL_1]                           | [ESTADO]    | [PRIORIDAD] | [NOTAS]          |
 | [FEATURE_REAL_2]                           | [ESTADO]    | [PRIORIDAD] | [NOTAS]                                                    |
 | [FEATURE_REAL_3]                           | [ESTADO]    | [PRIORIDAD] | [NOTAS]                                                    |
 
