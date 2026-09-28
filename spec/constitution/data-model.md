@@ -42,15 +42,17 @@
 
 ```mermaid
 erDiagram
-    [ENTIDAD_A] ||--o{ [ENTIDAD_B] : "VERBO_DE_RELACION"
-    [ENTIDAD_A] {
-        [tipo] [PK] id
-        [tipo] [nombre_campo]
+    ENTIDAD_A ||--o{ ENTIDAD_B : "VERBO_DE_RELACION"
+    
+    ENTIDAD_A {
+        tipo id PK
+        tipo nombre_campo
     }
-    [ENTIDAD_B] {
-        [tipo] [PK] id
-        [tipo] [FK] entidad_a_id
-        [tipo] [nombre_campo]
+    
+    ENTIDAD_B {
+        tipo id PK
+        tipo entidad_a_id FK
+        tipo nombre_campo
     }
 ```
 
