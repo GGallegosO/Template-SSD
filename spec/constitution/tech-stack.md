@@ -50,6 +50,11 @@
 **Datos sensibles y cifrado:** [POLITICA_DE_DATOS_SENSIBLES]
 
 > *Guía:* Empieza por el modelo de datos del dominio; la BD se elige después, no al revés.
+> **Importante:** esta sección registra SOLO la *selección del motor* y sus políticas operativas.
+> El **esquema concreto** (diagrama entidad-relación, entidades, campos, relaciones y decisiones
+> de diseño) NO va aquí: vive en `data-model.md`, que es la fuente única de verdad del modelo
+> de datos. Regla práctica: si respondes "qué tecnología y por qué" → `tech-stack.md`; si
+> respondes "qué tablas/colecciones y cómo se relacionan" → `data-model.md`.
 
 ---
 

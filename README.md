@@ -44,6 +44,7 @@ esto?" debería tener respuesta seis meses después.
 │   ├── constitution/              # Fundamentos del proyecto (cambian rara vez, se revisan formalmente)
 │   │   ├── mission.md             # Visión, problema, objetivos medibles, público objetivo
 │   │   ├── tech-stack.md          # Decisiones tecnológicas con justificación (tablas)
+│   │   ├── data-model.md          # Diagrama ER, diccionario de datos y decisiones de esquema
 │   │   └── roadmap.md             # Hitos: Feature | Estado | Prioridad | Notas
 │   └── features/                  # Una carpeta numerada por funcionalidad
 │       └── _TEMPLATE_/            # Plantilla maestra: cópiala para cada feature nueva
@@ -89,7 +90,11 @@ Orden recomendado:
    de priorización.
 2. **`tech-stack.md`** segundo: evalúa al menos dos candidatas por categoría y escribe la
    justificación. Esta tarea merece su propio registro `doc/001-seleccion-stack.md`.
-3. **`roadmap.md`** tercero: convierte la misión en hitos con estado y prioridad; borra las filas de
+3. **`data-model.md`** tercero: cuando tengas decidido el diagrama de base de datos, es SU lugar
+   (no va en `tech-stack.md`, que solo registra la selección del motor). Vuelca el diagrama en
+   formato texto (Mermaid), el diccionario de entidades y las decisiones de diseño con su
+   justificación; referencia el registro `doc/NNN-diseno-esquema-datos.md` que originó la decisión.
+4. **`roadmap.md`** cuarto: convierte la misión en hitos con estado y prioridad; borra las filas de
    ejemplo cuando tengas las reales.
 
 > Mientras queden placeholders `[TECNOLOGIA]` en `tech-stack.md`, está prohibido escribir código
